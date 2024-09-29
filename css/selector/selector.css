@@ -1,0 +1,44 @@
+/* Element Selector */
+
+p {
+  color: lightseagreen;
+}
+
+/* Id Selector */
+
+#heading1 {
+  color: aquamarine;
+}
+
+#heading2 {
+  color: lightcoral;
+}
+
+/* Class Selector */
+.btn {
+  background-color: lightseagreen;
+  color: white;
+}
+
+/* ----- Combinators ----- */
+
+/* Descendent Selector (space) */
+#descendent li {
+  color: lightcoral;
+}
+
+/* Child Selector ( > ) */
+#child > li {
+  color: rgb(8, 142, 135);
+}
+
+/* Adjacent Sibling Selector ( + ) */
+#adjacent + li {
+  color: rgb(145, 9, 186);
+}
+
+/* General Sibling Selector ( ~ )  */
+
+#general-sibling ~ li {
+  color: rgb(7, 104, 165);
+}

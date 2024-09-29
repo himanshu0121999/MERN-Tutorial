@@ -1,0 +1,31 @@
+h1 {
+  /* border-width: 6px;
+  border-style: dotted;
+  border-color: rgb(128, 171, 240); */
+
+  border: 1px solid lightpink;
+
+  border-radius: 5px;
+
+  /* padding-top: 12px;
+
+  padding-bottom: 6px;
+  padding-left: 3px;
+  padding-right: 40px; */
+  /* 
+  background-color: lightseagreen; */
+
+  background-image: url("https://www.infobeans.com/wp-content/uploads/2023/08/Take-your-career-image-3.svg?w=300");
+
+  padding: 12px;
+
+  height: 500px;
+
+  background-repeat: repeat-y;
+}
+
+#container {
+  height: 100vh;
+  width: 100vw;
+  background-color: lightcoral;
+}

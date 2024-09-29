@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Selectors</title>
+
+    <link rel="stylesheet" href="./selector.css" />
+  </head>
+  <body>
+    <h1 id="heading1">This is my heading 1</h1>
+    <h1 id="heading2">This is my heading 2</h1>
+
+    <!-- Id => Unique -->
+    <!-- A => 001 -->
+    <!-- B => 002 -->
+
+    <!-- Class -->
+    <!-- A => 5th Male 12year  -->
+    <!-- B => 5th  -->
+
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima,
+      corporis.
+    </p>
+
+    <button>Click Me</button>
+    <button class="btn">Submit</button>
+    <button class="btn">Login</button>
+
+    <h2>Descendent Selector (Space)</h2>
+
+    <ul id="descendent">
+      <li>Descendent-1</li>
+      <li>Descendent-2</li>
+      <li>Descendent-3</li>
+      <li>Descendent-4</li>
+    </ul>
+
+    <hr />
+
+    <h2>Child Selector ( > )</h2>
+
+    <ul id="child">
+      <li>Child-1</li>
+      <li>Child-2</li>
+      <div>
+        <li>Child-3</li>
+        <li>Child-4</li>
+      </div>
+    </ul>
+
+    <hr />
+    
+    <h2>Adjacent Sibling Selector ( + )</h2>
+
+    <ul>
+      <li>Adjacent - Before</li>
+      <li id="adjacent">Item 2</li>
+      <li>Adjacent - After</li>
+      <li>Item 4</li>
+    </ul>
+    
+    <hr />
+    
+    <h2>General Sibling Selector ( ~ )</h2>
+
+    <ul>
+      <li>Sibling - Before</li>
+      <li id="general-sibling">Item 2</li>
+      <li>Sibling - After</li>
+      <li>Sibling -After</li>
+    </ul>
+  </body>
+</html>
