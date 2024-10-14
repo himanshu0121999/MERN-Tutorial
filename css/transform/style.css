@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: lightsalmon;
+
+
+
+
+  /* transform: translateX(-100px); */
+
+  /* transform: rotateX(-45deg); */
+
+  /* Scale = Zoom */
+  /* transform: scaleX(2) scaleY(2) scaleZ(2); */
+
+  /* transform: skew(45deg, 10deg); */
+
+  transition: transform;
+  transition-duration: 2000ms;
+
+
+}
+
+#box:hover {
+    background-color: lightseagreen;
+    transform: translateX(100px);
+}
+
+
+#btn {
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    padding: 4px 16px;
+    border-radius: 4px;
+    display: flex;
+}
+
+#arrow {
+    transition: all;
+    transition-duration: 2s;
+}
+
+#arrow:hover {
+    transform: translateX(8px);
+}
