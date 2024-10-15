@@ -1,0 +1,54 @@
+.box {
+  height: 100px;
+  width: 150px;
+  background-color: lightseagreen;
+  border-radius: 5px;
+  /* 
+    animation-name: translateBox;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse ;
+    
+
+
+    animation-fill-mode: forwards ;
+    animation-delay: 3s; */
+
+  animation-name: rotateBox;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+
+  /* Speed */
+  animation-timing-function: linear;
+}
+
+@keyframes translateBox {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(300px);
+  }
+}
+
+@keyframes rotateBox {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    background-color: lightcoral;
+  }
+
+  100% {
+    transform: rotate(45deg);
+    background-color: lightcoral;
+  }
+}
