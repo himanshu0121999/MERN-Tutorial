@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomatto Clone</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex justify-center">
+    <div class="w-3/5">
+      <div class="flex justify-between py-2">
+        <!-- Logo and Search -->
+        <div class="flex gap-4 items-center">
+          <!-- Logo -->
+          <div class="text-3xl font-bold">
+            <!-- <img
+              src="./assets/Zomato-Logo.png"
+              alt="Logo"
+              class="w-24 h-12"
+            /> -->
+
+            zomato
+          </div>
+
+          <!-- Location & Search -->
+          <div
+            class="border p-4 rounded-md flex gap-2 divide-x divide-gray-400 shadow"
+          >
+            <div class="flex gap-2 px-2 items-center">
+              <i class="fa-solid fa-location-dot text-red-500"></i>
+              <input
+                type="text"
+                class="w-24 outline-none"
+                placeholder="Indore"
+              />
+              <i class="fa-solid fa-sort-down text-gray-600"></i>
+            </div>
+
+            <div class="px-2 flex items-center gap-2">
+              <i class="fa-solid fa-magnifying-glass text-gray-600"></i>
+              <input
+                type="text"
+                class="outline-none w-72"
+                placeholder="Search for restaurant, cuisine or a dish"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="flex gap-8">
+          <button class="text-gray-400 text-xl">Log in</button>
+          <button class="text-gray-400 text-xl">Sign Up</button>
+        </div>
+      </div>
+
+      <div class="text-gray-400 text-xs" >Home / India / <span class="text-gray-300" > Indore Restaurants </span></div>
+    </div>
+  </body>
+</html>
